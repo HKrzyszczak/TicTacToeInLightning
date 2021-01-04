@@ -32,7 +32,7 @@ export default class Game extends Lightning.Component {
           x: 100,
           y: 170,
           Player: { text: { text: 'Player 0', fontSize: 29, fontFace: 'Regular' } },
-          Ai: { text: { text: 'Computer 0', fontSize: 29, fontFace: 'Regular' } },
+          Ai: { y: 40, text: { text: 'Computer 0', fontSize: 29, fontFace: 'Regular' } },
         },
       },
       Notification: {

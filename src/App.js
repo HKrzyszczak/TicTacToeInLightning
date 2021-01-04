@@ -3,6 +3,7 @@ import { Lightning, Utils } from '@lightningjs/sdk'
 import Splash from './Splash/Splash'
 import Main from './Main/Main'
 import Game from './Game/Game'
+import Base64Img from './Base64Img/Base64Img'
 
 export default class App extends Lightning.Component {
   static getFonts() {
@@ -27,6 +28,7 @@ export default class App extends Lightning.Component {
       },
       Main: { type: Main, alpha: 0, signals: { select: 'menuSelect' } },
       Game: { type: Game, alpha: 0 },
+      Base64Img: { x: 100, y: 700, type: Base64Img, alpha: 1 },
     }
   }
 
